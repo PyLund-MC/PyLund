@@ -55,7 +55,7 @@ def Hepmcconverter(hadronlists):          # Takes a list of lists as the argumen
 
 
 def Convertfromhepmc():
-    reader = hepmc.IO_GenEvent("ryan.hepmc", "r") # ryan.hepmc is the file for PYTHIA stuff
+    reader = hepmc.IO_GenEvent("INPUT", "r") # ryan.hepmc is the file for PYTHIA stuff
 
     evtnum = 0 # should be zero
     noheavyevents = 0
