@@ -206,9 +206,9 @@ class twobodydecay4D(object):
         Failsafe1hadron = Decaytables.GetFailsafe1hadron(string)
         if Failsafe1hadron == 0:
             Failsafe1hadron = 22 #  set to a photon
-            print "Failsafe1 being fed an unphysical string - setting the hadron to photon to avoid crash but investigate the problem"
-            print string.Getstringmass(), "stringmass"
-            print string.Getstringcontent(), "stringcontent"
+            #print "Failsafe1 being fed an unphysical string - setting the hadron to photon to avoid crash but investigate the problem"
+            #print string.Getstringmass(), "stringmass"
+            #print string.Getstringcontent(), "stringcontent"
         #print Failsafe1hadron
         hadronmass = Decaytables.Getmass(Failsafe1hadron) # mass1
         #print hadronmass, "hadronmass"
